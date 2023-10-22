@@ -1,0 +1,127 @@
+body{
+    background-image: url(bg.png);
+}
+
+.head-t{
+    color: white;
+    font-weight: bold;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 70px;
+}
+
+.head-p{
+    color: white;
+    width: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+     Verdana, sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
+
+.head{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 35px;
+    padding: 30px;
+    width: fit-content;
+}
+
+.nav{
+ background-color: rgba(0, 0, 0, 0.507);
+ height: fit-content;
+ width: 100%;
+ text-align: center;
+}
+
+.navb{
+    border: none;
+    background-color:rgba(255, 255, 255, 0) ;
+    cursor: pointer;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    width: 24%;
+}
+
+.navl{
+    color: white;
+    text-decoration: none;
+}
+
+.navb::after{
+    content: '';
+    width: 0;
+    display: block;
+    height: 2px;
+    background: #ffffff;
+    transition: width 0.3s;
+    align-self: center;
+}
+
+.navb:hover::after{
+    width: 100%;
+}
+
+.pricing{
+    display: flex;
+    text-align: left;
+    margin-inline-start: 0%;
+    height: 600px;
+    text-align: center;
+}
+
+.prcing{
+    background-color: #ffffff3f;
+    margin-left: 20px;
+    border-radius: 30px;
+    width: 50%;
+    
+}
+
+.pr{
+    font-size: 70px;
+    color: #ffffff83;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+.pc{
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.info{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
+
+.price{
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.get{
+    background-color: rgb(36, 113, 255);
+    border: none;
+    padding: 20px;
+    width: 150px;
+    border-radius: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+

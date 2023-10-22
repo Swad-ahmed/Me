@@ -1,0 +1,17 @@
+.cardno{
+    border: none;
+    padding: 10px;
+    background-color: rgb(240, 240, 240);
+}
+
+.cardno:focus{
+    width: 50%;
+    outline: none;
+}
+
+.cardno:focus::after{
+    display: block;
+    content: '';
+    width: 50%;
+    transition: 0.5s ease;
+}
